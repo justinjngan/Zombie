@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		022C179E259B2A8C00D38F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022C179D259B2A8C00D38F3D /* AppDelegate.swift */; };
-		022C17A0259B2A8C00D38F3D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 022C179F259B2A8C00D38F3D /* GameScene.sks */; };
 		022C17A2259B2A8C00D38F3D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 022C17A1259B2A8C00D38F3D /* Actions.sks */; };
 		022C17A4259B2A8C00D38F3D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022C17A3259B2A8C00D38F3D /* GameScene.swift */; };
 		022C17A6259B2A8C00D38F3D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022C17A5259B2A8C00D38F3D /* GameViewController.swift */; };
 		022C17A9259B2A8C00D38F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 022C17A7259B2A8C00D38F3D /* Main.storyboard */; };
 		022C17AB259B2A8D00D38F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 022C17AA259B2A8D00D38F3D /* Assets.xcassets */; };
+		022C17B5259B34F100D38F3D /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 022C17B4259B34F100D38F3D /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		022C179A259B2A8C00D38F3D /* Zombie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zombie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		022C179D259B2A8C00D38F3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		022C179F259B2A8C00D38F3D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		022C17A1259B2A8C00D38F3D /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		022C17A3259B2A8C00D38F3D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		022C17A5259B2A8C00D38F3D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		022C17A8259B2A8C00D38F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		022C17AA259B2A8D00D38F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		022C17AC259B2A8D00D38F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		022C17B4259B34F100D38F3D /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				022C179D259B2A8C00D38F3D /* AppDelegate.swift */,
-				022C179F259B2A8C00D38F3D /* GameScene.sks */,
+				022C17B4259B34F100D38F3D /* Launch Screen.storyboard */,
 				022C17A1259B2A8C00D38F3D /* Actions.sks */,
 				022C17A3259B2A8C00D38F3D /* GameScene.swift */,
 				022C17A5259B2A8C00D38F3D /* GameViewController.swift */,
@@ -128,8 +128,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				022C17A9259B2A8C00D38F3D /* Main.storyboard in Resources */,
-				022C17A0259B2A8C00D38F3D /* GameScene.sks in Resources */,
 				022C17AB259B2A8D00D38F3D /* Assets.xcassets in Resources */,
+				022C17B5259B34F100D38F3D /* Launch Screen.storyboard in Resources */,
 				022C17A2259B2A8C00D38F3D /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +283,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82NVC2P835;
 				INFOPLIST_FILE = Zombie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,6 +302,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82NVC2P835;
 				INFOPLIST_FILE = Zombie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
